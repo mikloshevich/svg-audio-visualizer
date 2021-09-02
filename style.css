@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3a3a3a;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+svg {
+    width: 70vw;
+    height: 70vh;
+}
+
+.bar {
+    transform: scaleY(0);
+    transform-origin: center;
+}
